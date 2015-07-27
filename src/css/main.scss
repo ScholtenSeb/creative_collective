@@ -1,0 +1,50 @@
+@import "header/header";
+.cc-container {
+  width: 100%;
+  position: relative;
+}
+.cc-section {
+  overflow: hidden;
+  position: relative;
+  height: 500px;
+  min-height: 500px;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  &.fixed-bg {
+    background-attachment: fixed;
+  }
+  & .parallax-container {
+    height: 100%;
+  }
+}
+body {
+  overflow: visible!important;
+  //padding-top: 100px;
+}
+.slides-navigation {
+  position: absolute!important;
+  width: 100%;
+  top: 50%!important;
+  z-index: 9999!important;
+  & .next {
+    float: right;
+  }
+  & .prev {
+    float: left;
+  }
+}
+
+.st0{fill:#D8DD29;}
+.st1{fill:#F9B719;}
+.st2{fill:#FFC812;}
+.st3{fill:#D8DD27;}
+.st4{fill:#038DBB;}
+.st5{fill:#97C93E;}
+.st6{fill:#E82629;}
+.st7{fill:#EA2427;}
+.st8{fill:#2BA6DE;}
+.st9{fill:#EC207A;}
+.st10{fill:#F05E24;}
+.st11{fill:#F05C28;}
+.st12{fill:#EC237A;}
