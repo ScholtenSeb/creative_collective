@@ -19,12 +19,13 @@
     });
     $(document).ready(function(){
       $('.parallax').parallax();
+      $('.modal-trigger').leanModal();
     });
   });
   $(window).load(function(){
     setTimeout(function(){
         $('.logo-intro').fadeOut();
-    },2000);
+    },200);
   });
 </script>
 </head>
@@ -167,13 +168,14 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col s12">
-                        <a class="brand-logo">Creative Collective</a>
+                        <a class="brand-logo"><img src="dist/images/cc-logo-header.svg" height="50px"></a>
                         <ul class="right">
-                            <li><a href="#">LINK</a></li>
-                            <li><a href="#">LINK</a></li>
-                            <li><a href="#">LINK</a></li>
-                            <li><a href="#">LINK</a></li>
-                            <li><a href="#">LINK</a></li>
+                            <li><a href="#">WHAT WE DO</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="#">PORTFOLIO</a></li>
+                            <li><a href="#">DESIGN</a></li>
+                            <li><a href="#">ACTIVATIONS</a></li>
+                            <li><a href="#">CONTACT US</a></li>
                         </ul>
                     </div>
                 </div>
@@ -182,26 +184,203 @@
   </header>
   <div class="cc-container">
     <div class="cc-section">
+        <div class="valign-wrapper" style="height:500px;margin-top:100px;">
+            <div class="valign" style="width:100%;text-align:center;">
+                <img src="dist/images/cc-logo-full.svg" width="800px" height="auto">
+            </div>
+        </div>
+        <div class="container center-align" style="padding:60px 0;">
+                    <h3>Bringing Brands to Life &amp; Life to Brands</h3>
+                    <p>We are highly experienced in the arrangement and management of large scale, corporate events and marketing projects.Creative Collective is a small team of wildly creative and dedicated people with a very big reputation. Although we’re Gauteng based, our skills, infrastructure &amp; services provide the complete 360° event package nationally.  We thrive on exceeding expectations by creating &amp; implementing stand-out events, packed with visionary elements that captivate audiences &amp; elevate our clients branding expectations making their events memorable and highly impactful. We are fortunate to be the brand custodians of many of the nation’s top shopping centres &amp; corporate businesses on an impressive list of wide-range clients. They trust us to be their brand ambassador’s – and our vast history of experience in this field  makes us truly understand our client’s needs, goals &amp; dreams helping to create concepts that are always on brief, on budget &amp; off the scales of true creativity &amp; memorability! They hold us in regard to deliver the best entertainment, engaging interactions &amp; true felt legacy impact from each unique event, brand activation or promotion that we deliver. Got to our ‘What we do’ section to find out how we do it!</p>
+                </div>
+    </div>
+    <div class="cc-section">
+        <div class="parallax-container">
+            <div class="parallax"><img src="dist/images/SLIDE_2.jpg"></div>
+        </div>
+        <div class="cc-content">
+            <div class="cc-cards">
+                <div class="container">
+                    <div class="row" style="padding:60px 0">
+
+                        <div class="col s3">
+                            <div class="card-panel services-panel" style="background:rgb(242, 60, 233);">
+                                <div class="valign-wrapper" style="height:200px;">
+                                    <div class="valign" style="width:100%;text-align:center;">
+                                        <a href="#cc-events" class="modal-trigger white-text"><h5>PROMOTIONS</h5></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cc-events" class="modal services-modal">
+                                <div class="modal-content">
+                                    <h4>Modal Header</h4>
+                                    <p>A bunch of text</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">X</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col s3">
+                            <div class="card-panel services-panel" style="">
+                                <div class="valign-wrapper" style="height:200px;">
+                                    <div class="valign" style="width:100%;text-align:center;">
+                                        <a href="#cc-events" class="modal-trigger grey-text"><h5>TRADE SHOWS</h5></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cc-events" class="modal services-modal">
+                                <div class="modal-content">
+                                    <h4>Modal Header</h4>
+                                    <p>A bunch of text</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">X</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col s3">
+                            <div class="card-panel services-panel" style="background:rgb(1, 135, 247);">
+                                <div class="valign-wrapper" style="height:200px;">
+                                    <div class="valign" style="width:100%;text-align:center;">
+                                        <a href="#cc-events" class="modal-trigger white-text"><h5>PROMOTERS</h5></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cc-events" class="modal services-modal">
+                                <div class="modal-content">
+                                    <h4>Modal Header</h4>
+                                    <p>A bunch of text</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">X</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col s3">
+                            <div class="card-panel services-panel" style="">
+                                <div class="valign-wrapper" style="height:200px;">
+                                    <div class="valign" style="width:100%;text-align:center;">
+                                        <a href="#cc-events" class="modal-trigger grey-text"><h5>BRAND ACTIVATIONS</h5></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cc-events" class="modal services-modal">
+                                <div class="modal-content">
+                                    <h4>Modal Header</h4>
+                                    <p>A bunch of text</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">X</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col s3">
+                            <div class="card-panel services-panel" style="">
+                                <div class="valign-wrapper" style="height:200px;">
+                                    <div class="valign" style="width:100%;text-align:center;">
+                                        <a href="#cc-events" class="modal-trigger grey-text"><h5>EVENT DESIGN</h5></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cc-events" class="modal services-modal">
+                                <div class="modal-content">
+                                    <h4>Modal Header</h4>
+                                    <p>A bunch of text</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">X</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col s3">
+                            <div class="card-panel services-panel" style="background:rgb(23, 208, 75);">
+                                <div class="valign-wrapper" style="height:200px;">
+                                    <div class="valign" style="width:100%;text-align:center;">
+                                        <a href="#cc-events" class="modal-trigger white-text"><h5>KIDS PLAYPARKS</h5></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cc-events" class="modal services-modal">
+                                <div class="modal-content">
+                                    <h4>Modal Header</h4>
+                                    <p>A bunch of text</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">X</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col s3">
+                            <div class="card-panel services-panel" style="">
+                                <div class="valign-wrapper" style="height:200px;">
+                                    <div class="valign" style="width:100%;text-align:center;">
+                                        <a href="#cc-events" class="modal-trigger grey-text"><h5>EXPERIMENTAL MARKETING CAMPAIGNS</h5></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cc-events" class="modal services-modal">
+                                <div class="modal-content">
+                                    <h4>Modal Header</h4>
+                                    <p>A bunch of text</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">X</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col s3">
+                            <div class="card-panel services-panel" style="background:rgb(255, 155, 23);">
+                                <div class="valign-wrapper" style="height:200px;">
+                                    <div class="valign" style="width:100%;text-align:center;">
+                                        <a href="#cc-events" class="modal-trigger white-text"><h5>GRAPHIC DESIGN &amp; MARKETING</h5></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cc-events" class="modal services-modal">
+                                <div class="modal-content">
+                                    <h4>Modal Header</h4>
+                                    <p>A bunch of text</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">X</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cc-section" style="height:500px;">
       <div class="slider">
         <ul class="slides">
           <li>
             <img src="dist/images/SLIDE_1.jpg"> <!-- random image -->
             <div class="card-panel caption left-align">
-              <h3 class="black-text">This is our big Tagline!</h3>
+              <h4 class="black-text">This is our big Tagline!</h4>
               <h5 class="black-text">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="dist/images/SLIDE_2.jpg"> <!-- random image -->
             <div class="card-panel caption left-align">
-              <h3 class="black-text">Left Aligned Caption</h3>
+              <h4 class="black-text">Left Aligned Caption</h4>
               <h5 class="black-text">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="dist/images/SLIDE_3.jpg"> <!-- random image -->
             <div class="card-panel caption left-align">
-              <h3 class="black-text">Right Aligned Caption</h3>
+              <h4 class="black-text">Right Aligned Caption</h4>
               <h5 class="black-text">Here's our small slogan.</h5>
             </div>
           </li>

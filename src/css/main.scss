@@ -6,7 +6,6 @@
 .cc-section {
   overflow: hidden;
   position: relative;
-  height: 500px;
   min-height: 500px;
   min-height: 100vh;
   background-size: cover;
@@ -16,6 +15,14 @@
   }
   & .parallax-container {
     height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    position:absolute;
+    z-index: -1;
+    pointer-events: none;
   }
 }
 body {
@@ -34,6 +41,15 @@ body {
     float: left;
   }
 }
+.services-card {
+  position: relative;
+  z-index: 9998;
+}
+.modal {
+  z-index: 9999;
+}
+
+
 
 .st0{fill:#D8DD29;}
 .st1{fill:#F9B719;}

@@ -4,14 +4,18 @@
   left: 0;
   right: 0;
   height: 100px;
-  z-index: 9900;
+  z-index: 500;
   background: #fff;
   & nav {
+    box-shadow: none;
   	line-height: 100px;
   	height:100px;
   	background-color: #fff;
+    & .brand-logo {
+      margin-top: 15px;
+    }
   	& a {
-  		color: #111;
+  		color: #666;
   	}
   }
 }
